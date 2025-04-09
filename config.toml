@@ -1,0 +1,146 @@
+base_url = "https://altonimb.us"
+theme = "linkita"
+
+default_language = "en"
+author = "nonik0"
+minify_html = true
+
+[languages.en]
+title = "altonimb.us"
+description = "Personal website of Nick Brown"
+build_search_index = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+taxonomies = [
+  { name = "tags", feed = true, paginate_by = 5 },
+]
+
+#[languages.jp]
+#taxonomies = [
+#  { name = "tags", feed = true, paginate_by = 5 },
+#]
+
+[markdown]
+highlight_code = true
+extra_syntaxes_and_themes = []
+highlight_theme = "material-dark"
+
+[languages.en.search]
+index_format = "elasticlunr_json"
+
+[extra]
+math = false
+mermaid = false
+comment = false
+title_separator = " | "
+header_menu_name = "main_menu"
+use_cdn = false
+disable_default_favicon = false
+page_summary_on_paginator = false
+invert_page_navigation = false
+
+[extra.style]
+bg_color = "#CFD8DC"
+bg_dark_color = "#202020"
+header_blur = false
+header_color = "#b7410e"
+header_dark_color = "#b7410e"
+
+[extra.menus]
+main_menu = [
+  { url = "$BASE_URL/projects/", name = "Design Projects", names_i18n = "common_projects" },
+  #{ url = "$BASE_URL/test/", name = "Test", names_i18n = "test" },
+  { url = "$BASE_URL/contributions/", name = "Contributions", names_i18n = "common_contributions" },
+  { url = "$BASE_URL/experience/", name = "Experience", names_i18n = "common_experience" },
+  { url = "$BASE_URL/skills/", name = "Skills", names_i18n = "common_skills" },
+  #{ url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
+]
+#multilingual_menu_name = [
+#  {url = "$BASE_URL/pages/about/", names = {en = "About", fr = "About in French"} },
+#  {url = "$BASE_URL/pages/projects/", names = {en = "Projects", fr = "Projects in French"} },
+#  {url = "$BASE_URL/pages/archive/", names = {en = "Archive", fr = "Archive in French"} },
+#  {url = "$BASE_URL/categories/", names = {en = "Categories", fr = "Categories in French"} },
+#  {url = "$BASE_URL/tags/", names = {en = "Tags", fr = "Tags in French"} },
+#  {url = "$BASE_URL/authors/", names = {en = "Authors", fr = "Authors in French"} },
+#]
+
+[extra.profiles]
+
+[extra.profiles.nonik0]
+avatar_url = "icons/github.svg"
+avatar_alt = "nonik0 avatar image"
+avatar_invert = true
+name = "Nick Brown"
+bio = "Welcome to my personal site where I share my personal projects. I hope you will be inspired with fresh ideas for projects of your own!"
+email = "nick@altonimb.us"
+url = "https://altonimb.us"
+social = [
+  { name = "github", url = "https://github.com/nonik0" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/nicholaspbrown" },
+  { name = "rss", url = "$BASE_URL/atom.xml" },
+]
+
+#[extra.profiles.nonik0.languages]
+#[extra.profiles.sample_username.languages.jp]
+#name = "Linkita - Zola Theme"
+#bio = "A clean and elegant blog theme for Zola. Linkita is based on Kita and Hugo-Paper and is multilingual and SEO friendly."
+#avatar_alt = "Demo profile avatar."
+
+[extra.profiles.nonik0.open_graph]
+first_name = "Nick"
+last_name = "Brown"
+username = "nonik0"
+image = "images/screenshot.png"
+image_alt = "A screenshot of this website."
+
+[extra.profiles.nonik0.open_graph.languages]
+#jp = { image_alt = "Екранна снимка на този сайт." }
+
+[extra.footer]
+since = 2025
+#license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+#copyright = "&copy; $YEAR Nick Brown &vert; [CC BY-SA 4.0]($LICENSE_URL)"
+
+[extra.languages]
+
+[extra.languages.en]
+locale = "en_US"
+date_format = "%F"
+date_format_archive = "%m-%d"
+
+[extra.languages.en.taxonomy_descriptions]
+tags = "A map of all tags on this site. Start exploring!"
+authors = "A map of all authors on this site. Start exploring!"
+[extra.languages.en.term_descriptions]
+tags = "Browse articles related to $NAME. Start exploring!"
+authors = "Browse articles written by $NAME. Start exploring!"
+
+#[extra.languages.jp]
+#locale = "bg_BG"
+#date_format = "%d %b %Y"
+#date_format_archive = "%d %b"
+
+#[extra.languages.bg.taxonomy_descriptions]
+#tags = "Разгледайте всички етикети на този сайт!"
+#authors = "Разгледайте всички автори на този сайт!"
+#[extra.languages.jp.term_descriptions]
+#tags = "Списък на страниците отнасящи се до $NAME."
+#authors = "Списък на страниците написани от $NAME."
+
+[extra.goatcounter]
+endpoint = "https://nonik.goatcounter.com/count"
+noscript_prefix = ""
+
+#[extra.giscus]
+#repo = ""
+#repo_id = ""
+#category = ""
+#category_id = ""
+#mapping = "pathname"
+#strict = 1
+#reactions_enabled = 0
+#emit_metadata = 0
+#input_position = "top"
+#theme = "dark"
+#lang = "en"
+#loading = "lazy"
