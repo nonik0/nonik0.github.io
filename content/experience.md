@@ -1,6 +1,6 @@
 +++
 title = "Experience"
-description = "My professsional work experience, technical/educational background, and a downloadable resume."
+description = "Professsional work experience, technical/educational background, and a downloadable resume."
 template = "page.html"
 weight = 3
 +++
