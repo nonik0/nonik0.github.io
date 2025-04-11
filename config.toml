@@ -7,7 +7,7 @@ minify_html = true
 
 [languages.en]
 title = "altonimb.us"
-description = "Personal website of Nick Brown"
+description = "Website of Nick Brown"
 build_search_index = true
 generate_feeds = true
 feed_filenames = ["atom.xml"]
@@ -38,6 +38,8 @@ use_cdn = false
 disable_default_favicon = false
 page_summary_on_paginator = false
 invert_page_navigation = false
+#header_buttons = ["site_title", "theme_button", "search_button", "translations_button"]
+header_buttons = ["site_title", "theme_button", "translations_button"]
 
 [extra.style]
 bg_color = "#CFD8DC"
@@ -71,13 +73,19 @@ avatar_url = "icons/github.svg"
 avatar_alt = "nonik0 avatar image"
 avatar_invert = true
 name = "Nick Brown"
-bio = "Welcome to my personal site where I share my personal projects. I hope you will be inspired with fresh ideas for projects of your own!"
+bio = """Hi I'm Nick and I like to build things — so I’ve always gravitated toward engineering. Over the years, I’ve found myself working across the full stack personally and professionally, from hardware and firmware to backend services and cloud infrastructure. I enjoy understanding how systems work end to end and putting care into the details at every layer.
+
+I’m especially interested in technologies that open up new ways of thinking — like decentralization, zero-knowledge, and emerging AI tools — they introduce new technical and human challenges worth solving.
+
+After 15 years at Microsoft, I’m ready to take on new challenges and work with technologies that feel fresh and full of potential. I’m especially interested in Rust, blockchain, and other areas where the tools are still evolving and the problems are still being figured out. It’s a good time to stretch, learn, and build in new directions.
+"""
 email = "nick@altonimb.us"
 url = "https://altonimb.us"
 social = [
   { name = "github", url = "https://github.com/nonik0" },
   { name = "linkedin", url = "https://www.linkedin.com/in/nicholaspbrown" },
-  { name = "rss", url = "$BASE_URL/atom.xml" },
+  { name = "email", url = "mailto:nick@altonimb.us" },
+  #{ name = "rss", url = "$BASE_URL/atom.xml" },
 ]
 
 #[extra.profiles.nonik0.languages]
