@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>altonimb.us - hardware</title>
+    <subtitle>Website of Nick Brown</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://altonimb.us/tags/hardware/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://altonimb.us"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-04-08T00:00:00+00:00</updated>
+    <id>https://altonimb.us/tags/hardware/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Light Rail</title>
+        <published>2025-04-08T00:00:00+00:00</published>
+        <updated>2025-04-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              nonik0
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://altonimb.us/test/light-rail/"/>
+        <id>https://altonimb.us/test/light-rail/</id>
+        
+        <content type="html" xml:base="https://altonimb.us/test/light-rail/">&lt;p&gt;Here is the content.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

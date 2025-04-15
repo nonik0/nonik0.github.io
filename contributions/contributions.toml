@@ -1,0 +1,74 @@
+
+[[project]]
+name = "AS1115 Rust driver"
+desc = "A platform agnostic driver written in Rust for AS1115 LED driver IC. Unpublished, in development."
+tags = ["rust", "hardware"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/as1115" },
+]
+
+[[project]]
+name = "HCMS-29xx Rust Driver"
+desc = "A platform agnostic driver written in Rust for HCMS-29xx and HCMS-39xx display ICs."
+tags = ["rust", "hardware"]
+links = [
+    { name = "crates.io", url = "https://crates.io/crates/hcms-29xx" },
+    { name = "github", url = "https://github.com/nonik0/hcms-29xx" },
+]
+
+[[project]]
+name = "Rust Support for ATtiny 0-series"
+desc = "Added support for Microchip's ATtiny 0-series 14 pin microcontrollers."
+tags = ["rust", "hardware", "avr"]
+links = [
+    { name = "github PR", url = "https://github.com/Rahix/avr-device/pull/182" }
+]
+
+[[project]]
+name = "Template Analyzer"
+desc = "Contributed major features such as bicep language support and source code mapping. Contributed as part of former role in Microsoft Azure Security org."
+tags = ["C#", "security", "static-analysis"]
+links = [
+    { name = "github PR", url = "https://github.com/Azure/template-analyzer" }
+]
+
+[[project]]
+name = "Template Analyzer"
+desc = "Contributed major features such as bicep language support and source code mapping. Contributed as part of former role in Microsoft Azure Security org."
+tags = ["C#", "security", "static-analysis"]
+links = [
+    { name = "github PR", url = "https://github.com/Azure/template-analyzer" }
+]
+
+[[project]]
+name = "Cardputer LoRaChat"
+desc = "I was miffed that the Cardputer has LoRa modules but no support for Meshtastic, so this was something I did to have fun with some LoRa communication."
+tags = ["C++", "ESP32", "firmware"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/CardputerLoRaChat" }
+]
+
+[[project]]
+name = "Cardputer Lego Train Control"
+desc = "This is a simple program for the M5Stack Cardputer to control several LEGO trains or accessories with one device. Was able to learn BLE protocol and implement a few new BLE drivers."
+tags = ["C++", "ESP32", "BLE", "firmware"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/CardputerLegoTrainControl" }
+]
+
+[[project]]
+name = "Cardputer Remote"
+desc = "Simple remote app that supports Sony and LG TVs. The IR LED on Cardputer is not too strong so limited usefulness without modding."
+tags = ["C++", "ESP32", "firmware"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/CardputerRemote" }
+]
+
+[[project]]
+name = "Adafruit Trellis support for ESPHome"
+desc = "I wrote an ESPHome component to monitor and control the Adafruit Trellis over I2C for better integration into Home Assistant."
+tags = ["C++", "Home Automation"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/esphome-adafruit-trellis" }
+]
+# 2024/09/04
