@@ -1,8 +1,10 @@
 +++
-title = "Hardware Projects"
-description = "Hardware projects I have designed and built for learning, development, and fun!"
-path = "projects"
-weight = 1
+title = "Open Source Projects"
+description = "Open source projects that I have created and/or contributed to."
+template = "pages.html"
+weight = 2
+[extra]
+page_info = []
 +++
 
-{{ projects(path="data.toml", format="toml") }}
+{{ projects(path="projects.toml", format="toml") }}

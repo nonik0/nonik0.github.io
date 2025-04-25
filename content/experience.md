@@ -1,8 +1,9 @@
 +++
 title = "Experience"
 description = "Professsional work experience, technical/educational background, and a downloadable resume."
-template = "page.html"
 weight = 3
+[extra]
+page_info = []
 +++
 
 ## 🧑‍💻 Work Experience

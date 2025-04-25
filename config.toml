@@ -50,9 +50,8 @@ header_dark_color = "#b7410e"
 
 [extra.menus]
 main_menu = [
-  { url = "$BASE_URL/projects/", name = "Design Projects", names_i18n = "common_projects" },
-  #{ url = "$BASE_URL/test/", name = "Test", names_i18n = "test" },
-  { url = "$BASE_URL/contributions/", name = "Contributions", names_i18n = "common_contributions" },
+  { url = "$BASE_URL/writeups/", name = "Writeups", names_i18n = "common_writeups" },
+  { url = "$BASE_URL/projects/", name = "Projects", names_i18n = "common_projects" },
   { url = "$BASE_URL/experience/", name = "Experience", names_i18n = "common_experience" },
   { url = "$BASE_URL/skills/", name = "Skills", names_i18n = "common_skills" },
   #{ url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
@@ -73,12 +72,11 @@ avatar_url = "icons/github.svg"
 avatar_alt = "nonik0 avatar image"
 avatar_invert = true
 name = "Nick Brown"
-bio = """Hi I'm Nick and I like to build things — so I’ve always gravitated toward engineering. Over the years, I’ve found myself working across the full stack personally and professionally, from hardware and firmware to backend services and cloud infrastructure. I enjoy understanding how systems work end to end and putting care into the details at every layer.
+bio = """I'm Nick, and I like to build things—from low-level hardware and firmware to high-level backend services and cloud infrastructure. I enjoy understanding how systems work end to end and putting care into the details at every layer, especially around security and reliability.
 
-I’m especially interested in technologies that open up new ways of thinking — like decentralization, zero-knowledge, and emerging AI tools — they introduce new technical and human challenges worth solving.
+I'm especially drawn to technologies that open up new ways of thinking and building — like decentralization, zero-knowledge proofs, and emerging AI tools. They bring both technical and human challenges that are exciting and meaningful to solve.
 
-After 15 years at Microsoft, I’m ready to take on new challenges and work with technologies that feel fresh and full of potential. I’m especially interested in Rust, blockchain, and other areas where the tools are still evolving and the problems are still being figured out. It’s a good time to stretch, learn, and build in new directions.
-"""
+After 15 years at Microsoft, I'm diving into technologies that feel fresh and full of potential. I'm particularly interested in Rust, blockchain, and other spaces where the tools are still evolving, the problems are still being explored, and new ways of building products that bring meaningful value to people are being discovered."""
 email = "nick@altonimb.us"
 url = "https://altonimb.us"
 social = [

@@ -1,3 +1,36 @@
+[[project]]
+name = "Light Rail"
+desc = "A minimalist, interactive PCB game inspired by maker/hardware badge culture. With trains."
+tags = ["hardware", "kicad", "rust"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/Light-Rail" },
+    { name = "writeup", url = "/writeups/light-rail", no_popup = true },
+]
+#image = "images/board_front_on.jpg"
+
+[[project]]
+name = "NONIK0"
+desc = "A project that puts the beautiful, retro HCMS-29xx dot matrix character display front and center. As a nametag."
+tags = ["hardware", "kicad", "rust"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/NONIK0" },
+]
+
+[[project]]
+name = "IN-13 Nixie Device"
+desc = "I don't like acrylic cases. At all. I found a nice metal case and designed a custom PCB around it to drive an IN-13 nixie bargraph display."
+tags = ["hardware", "kicad", "nixie", "C++"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/NONIK0" },
+]
+
+[[project]]
+name = "Stemmett Nixie Device"
+desc = "I invented a new use for the IN-7 family of symbolic Nixie tubes. Showing names of people I love!"
+tags = ["hardware", "kicad", "nixie"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/Stemmett-Nixie-Device" },
+]
 
 [[project]]
 name = "AS1115 Rust driver"
