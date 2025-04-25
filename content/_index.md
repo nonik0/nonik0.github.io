@@ -1,7 +1,6 @@
 +++
 sort_by = "weight"
-paginate_by = 5
-page_template = "pages.html"
+paginate_by = 4
 [extra]
 profile = "nonik0"
 +++
