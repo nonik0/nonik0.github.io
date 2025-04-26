@@ -6,7 +6,7 @@ links = [
     { name = "github", url = "https://github.com/nonik0/Light-Rail" },
     { name = "writeup", url = "/light-rail", no_popup = true },
 ]
-#image = "images/board_front_on.jpg"
+image = "light-rail/board_front_on_crop.jpg"
 
 [[project]]
 name = "NONIK0"
@@ -15,6 +15,7 @@ tags = ["hardware", "kicad", "rust"]
 links = [
     { name = "github", url = "https://github.com/nonik0/NONIK0" },
 ]
+image = "projects/nonik0.jpg"
 
 [[project]]
 name = "IN-13 Nixie Device"
@@ -23,6 +24,7 @@ tags = ["hardware", "kicad", "nixie", "C++"]
 links = [
     { name = "github", url = "https://github.com/nonik0/NONIK0" },
 ]
+image = "projects/in13_nixie_device.png"
 
 [[project]]
 name = "Stemmett Nixie Device"
@@ -31,6 +33,7 @@ tags = ["hardware", "kicad", "nixie"]
 links = [
     { name = "github", url = "https://github.com/nonik0/Stemmett-Nixie-Device" },
 ]
+image = "projects/stemmett_nixie_device.png"
 
 [[project]]
 name = "AS1115 Rust driver"
@@ -66,20 +69,13 @@ links = [
 ]
 
 [[project]]
-name = "Template Analyzer"
-desc = "Contributed major features such as bicep language support and source code mapping. Contributed as part of former role in Microsoft Azure Security org."
-tags = ["C#", "security", "static-analysis"]
-links = [
-    { name = "github PR", url = "https://github.com/Azure/template-analyzer" }
-]
-
-[[project]]
 name = "Cardputer LoRaChat"
 desc = "I was miffed that the Cardputer has LoRa modules but no support for Meshtastic, so this was something I did to have fun with some LoRa communication."
 tags = ["C++", "ESP32", "firmware"]
 links = [
     { name = "github", url = "https://github.com/nonik0/CardputerLoRaChat" }
 ]
+image = "projects/lorachat.png"
 
 [[project]]
 name = "Cardputer Lego Train Control"
@@ -88,6 +84,7 @@ tags = ["C++", "ESP32", "BLE", "firmware"]
 links = [
     { name = "github", url = "https://github.com/nonik0/CardputerLegoTrainControl" }
 ]
+image = "projects/lego_train_control.png"
 
 [[project]]
 name = "Cardputer Remote"
@@ -100,8 +97,47 @@ links = [
 [[project]]
 name = "Adafruit Trellis support for ESPHome"
 desc = "I wrote an ESPHome component to monitor and control the Adafruit Trellis over I2C for better integration into Home Assistant."
-tags = ["C++", "Home Automation"]
+tags = ["C++", "homeassistant"]
 links = [
     { name = "github", url = "https://github.com/nonik0/esphome-adafruit-trellis" }
 ]
 # 2024/09/04
+
+[[project]]
+name = "Beau's Button Board"
+desc = "A simple Adafruit Neotrellis device with wifi and battery for my son. Crammed into a small package. Currently presumed lost so no better pics."
+tags = ["hardware", "firmware", "ESP32"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/Beaus-Button-Board" }
+]
+image = "projects/beaus_button_board.png"
+
+[[project]]
+name = "3D Printer Enclosure Controller"
+desc = "I built a custom 3D printer enclosure for my Prusa. Hacked together controller using M5 Dinmeter from the sample code to control printer and enclosure lighting."
+tags = ["firmware", "C++", "ESP32"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/3DPEnclosureController" }
+]
+image = "projects/3dp_enclosure_controller.jpg"
+
+[[project]]
+name = "RZ568M Nixie Clock"
+desc = "A simple two digit Nixie clock using Dalibor Farny's RZ568M Nixie tubes. Used various components and put in a nice case."
+tags = ["hardware", "C++", "nixie"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/RZ568M-Nixie-Clock" }
+]
+image = "projects/rz568m_nixie_clock.jpg"
+
+[[project]]
+name = "IN-17 Nixie Clock"
+desc = "Used existing kit for IN-17s with some quick modifications to control via ESPHome. Put into a nice case."
+tags = ["hardware", "ESP8266", "homeassistant"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/IN17-Nixie-Clock" }
+]
+image = "projects/in17_nixie_clock.jpg"
+
+#TODO: rpydash?
+#TODO: bicep?
