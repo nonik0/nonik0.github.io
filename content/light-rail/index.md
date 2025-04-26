@@ -1,15 +1,19 @@
 +++
 title = "Light Rail"
+summary = true
 description = "A minimalist, interactive PCB game inspired by maker/hardware badge culture. With trains."
 date = 2025-04-10
+updated = 2025-04-25
 [taxonomies]
 tags = ["hardware", "kicad", "rust"]
 [extra]
-page_info = ["date", "date_updated_on_page", "reading_time", "authors"]
+page_info = ["date", "date_updated_on_page", "reading_time"]
 #[extra.cover]
-#image = "images/board_front_on.jpg"
+#image = "light-rail/board_front_on.jpg"
+#alt = "Front of Light Rail PCB"
+#width = 50
+#height = 200
 +++
-
 
 # Introduction
 This project started from the simple desire for me to come up with my own concept for a hardware badge, akin to the ones you'd see at places like [DefCon](https://defcon.org/) or [SuperCon](https://hackaday.com/tag/supercon/). If you are not aware, hardware badges are generally thematic, bespoke development boards with included hardware/peripherals that are easy to hack and modify. To me, the hardware badge is the perfect manifestation of the maker/hacker culture. They embody the curiosity to experiment and try new things, the desire to always be learning and improving, and most importantly the willingness and desire to share your project with the community so others can be inspired, learn from, and subsequently build upon your work. This last facet is the most important to me because it's the primary cog that drives the maker community. It is from this sense of sharing with community that really drove me really stop "lurking" and start putting my own projects out for others to see.

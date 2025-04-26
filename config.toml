@@ -4,6 +4,7 @@ theme = "linkita"
 default_language = "en"
 author = "nonik0"
 minify_html = true
+generate_robots_txt = true
 
 [languages.en]
 title = "altonimb.us"
@@ -22,6 +23,7 @@ taxonomies = [
 
 [markdown]
 highlight_code = true
+error_on_missing_highlight = false
 extra_syntaxes_and_themes = []
 highlight_theme = "material-dark"
 
@@ -34,6 +36,8 @@ mermaid = false
 comment = false
 title_separator = " | "
 header_menu_name = "main_menu"
+#page_info = [{ when="date" }, { when="date_updated", prepend="(", append=")" }, { when="reading_time" }]
+#page_info_on_paginator = [{ when="date" }, { when="reading_time" }, { when="authors" }]
 use_cdn = false
 disable_default_favicon = false
 page_summary_on_paginator = false
@@ -50,11 +54,10 @@ header_dark_color = "#b7410e"
 
 [extra.menus]
 main_menu = [
-  { url = "$BASE_URL/writeups/", name = "Writeups", names_i18n = "common_writeups" },
   { url = "$BASE_URL/projects/", name = "Projects", names_i18n = "common_projects" },
   { url = "$BASE_URL/experience/", name = "Experience", names_i18n = "common_experience" },
-  { url = "$BASE_URL/skills/", name = "Skills", names_i18n = "common_skills" },
   #{ url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
+  { url = "$BASE_URL/about/", name = "About", names_i18n = "common_about" },
 ]
 #multilingual_menu_name = [
 #  {url = "$BASE_URL/pages/about/", names = {en = "About", fr = "About in French"} },
@@ -67,7 +70,21 @@ main_menu = [
 
 [extra.profiles]
 
-[extra.profiles.nonik0]
+[extra.profiles.nick]
+avatar_url = "icons/github.svg"
+avatar_alt = "nonik0 avatar image"
+avatar_invert = true
+name = "Nick Brown"
+email = "nick@altonimb.us"
+url = "https://altonimb.us"
+social = [
+  { name = "github", url = "https://github.com/nonik0" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/nicholaspbrown" },
+  { name = "email", url = "mailto:nick@altonimb.us" },
+  #{ name = "rss", url = "$BASE_URL/atom.xml" },
+]
+
+[extra.profiles.nicholas]
 avatar_url = "icons/github.svg"
 avatar_alt = "nonik0 avatar image"
 avatar_invert = true
