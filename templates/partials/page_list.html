@@ -11,20 +11,14 @@
 {%- for page in pages %}
 <section
   class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
->
-{%- if page.extra.cover.image %}
-  <figure class="mb-4 mt-0">
-  <img
-      class="h-auto w-full rounded-lg"
-      style="float:right;margin:5px;max-height: 200px; width:auto;"
-      src="{{ get_url(path=page.extra.cover.image) }}"
-      {% if page.extra.cover.alt is defined %}alt="{{ page.extra.cover.alt | escape_xml | safe }}"{% endif %}
-      {% if page.extra.cover.width is defined %}width="{{ page.extra.cover.width | int }}"{% endif %}
-      {% if page.extra.cover.height is defined %}height="{{ page.extra.cover.height | int }}"{% endif %}
-  />
-  </figure>
+  {%- if page.extra.cover.image %}
+  style="display: flex; align-items: flex-start; gap: 0.5rem; align-items: stretch;"
   {%- endif %}
-  <h2 class="!my-0 pb-1 font-bold !leading-none">{{ page.title }}</h2>
+>
+  {%- if page.extra.cover.image %}
+  <div style="display: flex; flex-direction: column; justify-content: space-between; height: auto; flex: 1;">
+  {%- endif %}
+  <h2 class="!my-0 pb-2 font-bold !leading-none">{{ page.title }}</h2>
   {%- if not page.summary %}
     {%- set use_summary = false %}
   {%- elif not page.description %}
@@ -39,18 +33,33 @@
     {%- set use_summary = false %}
   {%- endif %}
   {%- if use_summary %}
-  <div class="not-prose my-1">
+  <div class="not-prose my-2">
     {{ page.summary | striptags | trim_end | trim_end_matches(pat=`&hellip;`) | trim_end_matches(pat=`.`) | safe }}{{
       m_i18n::tr(key=`hellip`, lk=g_lang_k, d=g_trans_d) }}
   </div>
   {%- elif page.description %}
-  <div class="not-prose my-1">
+  <div class="not-prose my-2">
     <p>{{ page.description }}</p>
   </div>
   {%- endif %}
 
+  <div style="margin-top: auto;">
   {% include "partials/page_info.html" %}
+  </div>
 
+  {%- if page.extra.cover.image %}
+  </div>
+  <figure class="my-0 mt-0">
+    <img
+      class="h-auto w-full rounded-lg"
+      {# hacky hardcode for now #}
+      style="max-height: 200px; width:auto;"
+      src="{{ get_url(path=page.extra.cover.image) }}"
+      {% if page.extra.cover.alt is defined %}alt="{{ page.extra.cover.alt | escape_xml | safe }}"{% endif %}
+    />
+  </figure>
+  {%- endif %}
+  
   {#- {% if use_summary %}#continue-reading{% endif %} #}
   <a class="absolute inset-0 text-[0]" href="{{ page.permalink | escape_xml | safe }}">{{ page.title }}</a>
 </section>

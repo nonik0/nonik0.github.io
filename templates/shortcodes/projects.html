@@ -21,18 +21,31 @@
   {%- set desc = project.languages[lang].desc | default(value=project.desc) %}
   {%- set tags = project.languages[lang].tags | default(value=project.tags) %}
   {%- set links = project.links %}
-<div class="not-prose text-base leading-7 block-bg my-4 flex w-full flex-col rounded-lg px-5 py-1.5">
-  <h2 class="my-2 text-xl font-bold text-black dark:text-white">{{ name }}</h2>
-  <p> {%- if project.image %}
-    {% set image = resize_image(path=project.image, width=300, height=300, op="fit") %}
-    <img
-        class="rounded-lg"
-        src="{{ image.url }}"
-        alt="{{ name }}"
-        style="float: right" />
+<div
+  class="not-prose text-base leading-7 block-bg my-4 w-full rounded-lg px-5 py-2"
+  style="display: flex; flex-direction: column;"
+>
+  <!-- Row: Text and Image side-by-side -->
+  <div style="display: flex; gap: 1rem; align-items: stretch;">
+    <!-- Text Column -->
+    <div style="display: flex; flex-direction: column; flex: 1;">
+      <h2 class="my-2 text-xl font-bold text-black dark:text-white">{{ name }}</h2>
+      <p>{{ desc | markdown(inline=true) | safe }}</p>
+    </div>
+
+    <!-- Optional Image Column -->
+    {%- if project.image %}
+    <figure class="my-0 mt-0 py-2" style="margin: 0;">
+      <img
+        class="h-auto w-full rounded-lg"
+        style="max-height: 200px; max-width: 200px; width: auto;"
+        src="{{ get_url(path=project.image) }}"
+      />
+    </figure>
     {%- endif %}
-    {{ desc | markdown(inline=true) | safe }}
-  </p>
+  </div>
+
+  <!-- Row: Tags and Links BELOW text + image -->
   <div class="my-2 flex flex-wrap items-center justify-between">
     <div class="flex flex-wrap gap-x-2 text-sm opacity-80">
       {%- for tag in tags %}
@@ -44,9 +57,8 @@
       <a
         class="underline"
         href="{{ link.url | replace(from=`$BASE_URL`, to=lang_base_url) | escape_xml | safe }}"
-        {%- if link.no_popup is not defined %}target="_blank"{% endif %}
-        >{{ link.name }}</a
-      >
+        target="_blank"
+      >{{ link.name }}</a>
       {%- endfor %}
     </div>
   </div>

@@ -1,21 +1,22 @@
 +++
 title = "Light Rail"
-summary = true
 description = "A minimalist, interactive PCB game inspired by maker/hardware badge culture. With trains."
 date = 2025-04-10
 updated = 2025-04-25
+template = "page_no_img.html"
 [taxonomies]
 tags = ["hardware", "kicad", "rust"]
 [extra]
 page_info = ["date", "date_updated_on_page", "reading_time"]
-#[extra.cover]
-#image = "light-rail/board_front_on.jpg"
-#alt = "Front of Light Rail PCB"
-#width = 50
-#height = 200
+[extra.cover]
+image = "light-rail/board_front_on_crop.jpg"
+alt = "Front of Light Rail PCB"
 +++
 
 # Introduction
+
+{{ resize_image_custom(path="board_front_on.jpg", height=510, margin="1rem", float="left" alt="Working prototype!") }}
+
 This project started from the simple desire for me to come up with my own concept for a hardware badge, akin to the ones you'd see at places like [DefCon](https://defcon.org/) or [SuperCon](https://hackaday.com/tag/supercon/). If you are not aware, hardware badges are generally thematic, bespoke development boards with included hardware/peripherals that are easy to hack and modify. To me, the hardware badge is the perfect manifestation of the maker/hacker culture. They embody the curiosity to experiment and try new things, the desire to always be learning and improving, and most importantly the willingness and desire to share your project with the community so others can be inspired, learn from, and subsequently build upon your work. This last facet is the most important to me because it's the primary cog that drives the maker community. It is from this sense of sharing with community that really drove me really stop "lurking" and start putting my own projects out for others to see.
 
 The process of getting my projects out into the public sphere at first was simply getting more organized and collecting my various existing project files into public Git repos. I definitely still have more work to do here! But in addition to sharing code and pictures, I also really value all of the project writeups I've read over the years from the multitude of other makers. I have really benefitted from those who have taken the time to both share their projects as well as composing their process into a helpful and informative writeup. So it is in that spirit that I decided to share my own experience developing this project with this writeup. Writing has never really been enjoyable for me, mostly because I feel so inefficient when I do. As a side benefit of pushing myself through this process, I am also hoping this writeup will serve as the basis for traning data for an LLM that could help me share even more in the future by writing in my own voice!

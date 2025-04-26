@@ -1,10 +1,10 @@
 {#{% set document = page | default(value=section) -%}#}
 {% set image = resize_image(path=page.path ~ path, height=height, op='fit_height') -%}
-<a href="{{ path }}" target="_blank">
+<a href="{{ page.path ~ path }}" target="_blank">
     <img
         src="{{ image.url }}"
         class="rounded-lg"
         style="{% if float is defined %}float:{{ float }};{% endif %};
-           margin:{% if margin is defined %}{{ margin }}{% else %}5{% endif %}px;"
+           margin:{% if margin is defined %}{{ margin }}{% else %}0.5rem{% endif %};"
         alt="{{ alt }}" />
 </a>
