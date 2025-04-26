@@ -1,10 +1,22 @@
 +++
-title = "Experience"
-description = "Professsional work experience, technical/educational background, and a downloadable resume."
-weight = 3
+title = "Skills & Experience"
+path = "experience"
+description = "Professional work experience, technical/educational background, and a downloadable resume."
+template = "page.html"
 [extra]
 page_info = []
 +++
+
+## 🛠️ Skills
+
+- **Languages**: Rust, C/C++, .NET/C#, Python, PowerShell, JavaScript/TypeScript, Go
+- **Microcontrollers**: ATtiny, ATMega, ESP32, STM32, nRF, RP2040, Raspberry Pi, RISC-V
+- **Tools**: Docker, Proxmox, LXC, Azure, AWS, Kubernetes, Home Assistant
+- **Infra/DevOps**: Durable Functions, Cosmos DB, Azure AD, Spark, Databricks
+- **Security**: Identity management, privilege analysis, static analysis tooling, test infrastructure
+- **Hardware**: PCB design with KiCad, embedded firmware, 3D modeling (Fusion 360)
+
+---
 
 ## 🧑‍💻 Work Experience
 
@@ -51,17 +63,6 @@ page_info = []
 - Designed an **AWS spot instance mining fleet** in 2018 to arbitrage GPU costs.
 - Early investor/enthusiast with self-custody practices (Shamir secret sharing, secret wallets, etc.).
 - Comfortable with EVM, Solidity, smart contract verification, zk-SNARKs/STARKs, and L2s (Polygon, Arbitrum, Optimism).
-
----
-
-## 🛠️ Technical Skills
-
-- **Languages**: Rust, C/C++, .NET/C#, Python, PowerShell, JavaScript/TypeScript, Go
-- **Microcontrollers**: ATtiny, ATMega, ESP32, STM32, nRF, RP2040, Raspberry Pi, RISC-V
-- **Tools**: Docker, Proxmox, LXC, Azure, AWS, Kubernetes, Home Assistant
-- **Infra/DevOps**: Durable Functions, Cosmos DB, Azure AD, Spark, Databricks
-- **Security**: Identity management, privilege analysis, static analysis tooling, test infrastructure
-- **Hardware**: PCB design with KiCad, embedded firmware, 3D modeling (Fusion 360)
 
 ---
 
