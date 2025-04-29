@@ -46,8 +46,6 @@ invert_page_navigation = false
 header_buttons = ["site_title", "theme_button", "translations_button"]
 
 [extra.style]
-bg_color = "#CFD8DC"
-bg_dark_color = "#202020"
 header_blur = false
 header_color = "#b7410e"
 header_dark_color = "#b7410e"
