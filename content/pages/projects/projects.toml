@@ -3,6 +3,7 @@ name = "Light Rail"
 desc = "A minimalist, interactive PCB game inspired by maker/hardware badge culture. With trains."
 tags = ["hardware", "kicad", "rust"]
 links = [
+    { name = "hackaday", url = "https://hackaday.io/project/202885-light-rail" },
     { name = "github", url = "https://github.com/nonik0/Light-Rail" },
     { name = "writeup", url = "/light-rail", no_popup = true },
 ]

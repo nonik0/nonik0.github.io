@@ -1,8 +1,8 @@
 +++
-title = "Light Rail"
+title = "Light Rail Project Writeup, Part 1"
 description = "A minimalist, interactive PCB game inspired by maker/hardware badge culture. With trains."
 date = 2025-04-10
-updated = 2025-04-25
+updated = 2025-04-28
 template = "page_no_img.html"
 [taxonomies]
 tags = ["hardware", "kicad", "rust"]
