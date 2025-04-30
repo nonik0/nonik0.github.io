@@ -16,7 +16,7 @@ tags = ["hardware", "kicad", "rust"]
 links = [
     { name = "github", url = "https://github.com/nonik0/NONIK0" },
 ]
-image = "projects/nonik0.jpg"
+image = "projects/images/nonik0.jpg"
 
 [[project]]
 name = "IN-13 Nixie Device"
@@ -25,7 +25,7 @@ tags = ["hardware", "kicad", "nixie", "C++"]
 links = [
     { name = "github", url = "https://github.com/nonik0/NONIK0" },
 ]
-image = "projects/in13_nixie_device.png"
+image = "projects/images/in13_nixie_device.png"
 
 [[project]]
 name = "Stemmett Nixie Device"
@@ -34,7 +34,7 @@ tags = ["hardware", "kicad", "nixie"]
 links = [
     { name = "github", url = "https://github.com/nonik0/Stemmett-Nixie-Device" },
 ]
-image = "projects/stemmett_nixie_device.png"
+image = "projects/images/stemmett_nixie_device.png"
 
 [[project]]
 name = "AS1115 Rust driver"
@@ -76,7 +76,7 @@ tags = ["C++", "ESP32", "firmware"]
 links = [
     { name = "github", url = "https://github.com/nonik0/CardputerLoRaChat" }
 ]
-image = "projects/lorachat.png"
+image = "projects/images/lorachat.png"
 
 [[project]]
 name = "Cardputer Lego Train Control"
@@ -85,7 +85,7 @@ tags = ["C++", "ESP32", "BLE", "firmware"]
 links = [
     { name = "github", url = "https://github.com/nonik0/CardputerLegoTrainControl" }
 ]
-image = "projects/lego_train_control.png"
+image = "projects/images/lego_train_control.png"
 
 [[project]]
 name = "Cardputer Remote"
@@ -102,16 +102,25 @@ tags = ["C++", "homeassistant"]
 links = [
     { name = "github", url = "https://github.com/nonik0/esphome-adafruit-trellis" }
 ]
-# 2024/09/04
+last_updated = "2024/09/04"
+
+[[project]]
+name = "M5Stack Unit 8Encoder support for ESPHome"
+desc = "I wrote an ESPHome component to monitor and control the M5Stack Unit 8Encoder over I2C for better integration into Home Assistant."
+tags = ["C++", "homeassistant"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/esphome-m5stack-unit8encoder" }
+]
+last_updated = "2024/04/30"
 
 [[project]]
 name = "Beau's Button Board"
-desc = "A simple Adafruit Neotrellis device with wifi and battery for my son. Crammed into a small package. Currently presumed lost so no better pics."
+desc = "A simple Adafruit Neotrellis device with wifi and battery for my son. Crammed into a small package. Prototype was lost, will rebuild at some point."
 tags = ["hardware", "firmware", "ESP32"]
 links = [
     { name = "github", url = "https://github.com/nonik0/Beaus-Button-Board" }
 ]
-image = "projects/beaus_button_board.png"
+image = "projects/images/beaus_button_board.png"
 
 [[project]]
 name = "3D Printer Enclosure Controller"
@@ -120,7 +129,7 @@ tags = ["firmware", "C++", "ESP32"]
 links = [
     { name = "github", url = "https://github.com/nonik0/3DPEnclosureController" }
 ]
-image = "projects/3dp_enclosure_controller.jpg"
+image = "projects/images/3dp_enclosure_controller.jpg"
 
 [[project]]
 name = "RZ568M Nixie Clock"
@@ -129,7 +138,7 @@ tags = ["hardware", "C++", "nixie"]
 links = [
     { name = "github", url = "https://github.com/nonik0/RZ568M-Nixie-Clock" }
 ]
-image = "projects/rz568m_nixie_clock.jpg"
+image = "projects/images/rz568m_nixie_clock.jpg"
 
 [[project]]
 name = "IN-17 Nixie Clock"
@@ -138,7 +147,7 @@ tags = ["hardware", "ESP8266", "homeassistant"]
 links = [
     { name = "github", url = "https://github.com/nonik0/IN17-Nixie-Clock" }
 ]
-image = "projects/in17_nixie_clock.jpg"
+image = "projects/images/in17_nixie_clock.jpg"
 
 #TODO: rpydash?
 #TODO: bicep?
