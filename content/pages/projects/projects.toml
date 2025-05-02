@@ -8,6 +8,7 @@ links = [
     { name = "writeup", url = "/light-rail", no_popup = true },
 ]
 image = "light-rail/board_front_on_crop.jpg"
+last_updated = "2025/04/30"
 
 [[project]]
 name = "NONIK0"
@@ -17,15 +18,17 @@ links = [
     { name = "github", url = "https://github.com/nonik0/NONIK0" },
 ]
 image = "projects/images/nonik0.jpg"
+last_updated = "2025/03/27"
 
 [[project]]
 name = "IN-13 Nixie Device"
-desc = "I don't like acrylic cases. At all. I found a nice metal case and designed a custom PCB around it to drive an IN-13 nixie bargraph display."
+desc = "I like metal. I found a nice metal case and designed a custom PCB for it to drive an IN-13 nixie bargraph display."
 tags = ["hardware", "kicad", "nixie", "C++"]
 links = [
-    { name = "github", url = "https://github.com/nonik0/NONIK0" },
+    { name = "github", url = "https://github.com/nonik0/IN13-Nixie-Device" },
 ]
 image = "projects/images/in13_nixie_device.png"
+last_updated = "2025/03/27"
 
 [[project]]
 name = "Stemmett Nixie Device"
@@ -35,6 +38,7 @@ links = [
     { name = "github", url = "https://github.com/nonik0/Stemmett-Nixie-Device" },
 ]
 image = "projects/images/stemmett_nixie_device.png"
+last_updated = "2024/12/12"
 
 [[project]]
 name = "AS1115 Rust driver"
@@ -43,6 +47,7 @@ tags = ["rust", "hardware"]
 links = [
     { name = "github", url = "https://github.com/nonik0/as1115" },
 ]
+last_updated = "2025/02/25"
 
 [[project]]
 name = "HCMS-29xx Rust Driver"
@@ -52,6 +57,7 @@ links = [
     { name = "crates.io", url = "https://crates.io/crates/hcms-29xx" },
     { name = "github", url = "https://github.com/nonik0/hcms-29xx" },
 ]
+last_updated = "2025/03/18"
 
 [[project]]
 name = "Rust Support for ATtiny 0-series"
@@ -60,6 +66,7 @@ tags = ["rust", "hardware", "avr"]
 links = [
     { name = "github PR", url = "https://github.com/Rahix/avr-device/pull/182" }
 ]
+last_updated = "2025/03/14"
 
 [[project]]
 name = "Template Analyzer"
@@ -68,6 +75,7 @@ tags = ["C#", "security", "static-analysis"]
 links = [
     { name = "github PR", url = "https://github.com/Azure/template-analyzer" }
 ]
+last_updated = "2024/04/20"
 
 [[project]]
 name = "Cardputer LoRaChat"
@@ -77,6 +85,7 @@ links = [
     { name = "github", url = "https://github.com/nonik0/CardputerLoRaChat" }
 ]
 image = "projects/images/lorachat.png"
+last_updated = "2024/12/03"
 
 [[project]]
 name = "Cardputer Lego Train Control"
@@ -86,6 +95,7 @@ links = [
     { name = "github", url = "https://github.com/nonik0/CardputerLegoTrainControl" }
 ]
 image = "projects/images/lego_train_control.png"
+last_updated = "2024/12/04"
 
 [[project]]
 name = "Cardputer Remote"
@@ -94,6 +104,7 @@ tags = ["C++", "ESP32", "firmware"]
 links = [
     { name = "github", url = "https://github.com/nonik0/CardputerRemote" }
 ]
+last_updated = "2024/04/20"
 
 [[project]]
 name = "Adafruit Trellis support for ESPHome"
@@ -102,7 +113,7 @@ tags = ["C++", "homeassistant"]
 links = [
     { name = "github", url = "https://github.com/nonik0/esphome-adafruit-trellis" }
 ]
-last_updated = "2024/09/04"
+last_updated = "2024/05/23"
 
 [[project]]
 name = "M5Stack Unit 8Encoder support for ESPHome"
@@ -111,7 +122,7 @@ tags = ["C++", "homeassistant"]
 links = [
     { name = "github", url = "https://github.com/nonik0/esphome-m5stack-unit8encoder" }
 ]
-last_updated = "2024/04/30"
+last_updated = "2025/04/30"
 
 [[project]]
 name = "Beau's Button Board"
@@ -121,6 +132,7 @@ links = [
     { name = "github", url = "https://github.com/nonik0/Beaus-Button-Board" }
 ]
 image = "projects/images/beaus_button_board.png"
+last_updated = "2025/04/16"
 
 [[project]]
 name = "3D Printer Enclosure Controller"
@@ -130,6 +142,7 @@ links = [
     { name = "github", url = "https://github.com/nonik0/3DPEnclosureController" }
 ]
 image = "projects/images/3dp_enclosure_controller.jpg"
+last_updated = "2024/09/27"
 
 [[project]]
 name = "RZ568M Nixie Clock"
@@ -139,6 +152,7 @@ links = [
     { name = "github", url = "https://github.com/nonik0/RZ568M-Nixie-Clock" }
 ]
 image = "projects/images/rz568m_nixie_clock.jpg"
+last_updated = "2025/01/16"
 
 [[project]]
 name = "IN-17 Nixie Clock"
@@ -148,6 +162,7 @@ links = [
     { name = "github", url = "https://github.com/nonik0/IN17-Nixie-Clock" }
 ]
 image = "projects/images/in17_nixie_clock.jpg"
+last_updated = "2024/05/19"
 
 #TODO: rpydash?
 #TODO: bicep?
