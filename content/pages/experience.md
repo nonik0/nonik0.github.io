@@ -7,28 +7,32 @@ template = "page.html"
 page_info = []
 +++
 
-## 🛠️ Skills
+## Skills
 
-- **Languages**: Rust, C/C++, .NET/C#, Python, PowerShell, JavaScript/TypeScript, Go
-- **Microcontrollers**: ATtiny, ATMega, ESP32, STM32, nRF, RP2040, Raspberry Pi, RISC-V
-- **Tools**: Docker, Proxmox, LXC, Azure, AWS, Kubernetes, Home Assistant
-- **Infra/DevOps**: Durable Functions, Cosmos DB, Azure AD, Spark, Databricks
-- **Security**: Identity management, privilege analysis, static analysis tooling, test infrastructure
-- **Hardware**: PCB design with KiCad, embedded firmware, 3D modeling (Fusion 360)
+- **Programming/Scripting Languages**: Rust, C/C++, .NET/C#, Python, PowerShell, JavaScript/TypeScript, Go, Lisp, Bash
+- **Virtualization**: Docker, Proxmox, LXC/LXD, Hyper-V, Kubernetes
+- **Cloud Infrastructure and DevOps**: Azure VMs, Azure Functions/Azure Durable Functions, Amazon Spot Instances, S3
+- **Data Science/Pipeline**: Cosmos DB, Databricks, Spark
+- **Identity and Security**: identity management (Azure AD), role/permissions/privilege analysis, static analysis tooling, penetration testing
+- **Blockchain/Crypto**: blockchain fundamentals: commitment schemes like KZG, proofs like zk-SNARKS, zk-STARKS, BFT/consensus algorithms, Ethereum fundamentals: EVM, Solidity, high uptime consensus and execution layer node cluster management
+- **CAD Design**: PCB design (KiCad), 3D modeling (Fusion 360)
+- **Microcontrollers**: Microchip ATtiny/ATMega, Espressif ESP8266/ESP32, STM32, Nordic nRF, Raspberry Pi RP2040/RP2350, RISC-V
+- **Human Languages**: English, Japanese (limited proficiency in reading and speaking), German
+
 
 ---
 
-## 🧑‍💻 Work Experience
+## Work Experience
 
-### **Software Development Engineer** — *Microsoft Defender for Cloud DevOps*  
-**Sep 2023 – Apr 2024**
+### **Software Development Engineer** — Microsoft  
+{{ left_right_align(left="Defender for Cloud DevOps Team", right="Sep 2023 – Apr 2024") }}
 
 - Developed and maintained the Security DevOps CLI, integrating static analysis tools like Terrascan and Template Analyzer.
 - Owned the open-source **Template Analyzer**, added major support for Bicep with source code mapping.
 - Redesigned release pipelines and repackaged dependencies to remove SPOFs and improve reliability.
 
-### **Security Software Engineer** — *Microsoft C+AI Security Green Team*  
-**Apr 2016 – Sep 2023**
+### **Security Software Engineer** — Microsoft
+{{ left_right_align(left="C+AI Security Green Team", right="Apr 2016 – Sep 2023") }}
 
 - Maintained the **AppAuthentication** library (250M+ downloads); led transition to Azure.Identity.
 - Built a Durable Functions + Data Explorer workflow to enforce least privilege RBAC; awarded a patent.
@@ -36,49 +40,42 @@ page_info = []
 - Led an org-wide initiative reducing credentials in source code from ~200k to <1k in under a year.
 - Contributed to Windows Forms “Subscription Cleanup Tool” for bulk Azure permission cleanup across clouds.
 
-### **Security Engineer** — *Microsoft C+AI Security Assurance Team*  
-**Mar 2014 – Apr 2016**
+### **Security Engineer** — Microsoft  
+{{ left_right_align(left="C+AI Security Assurance Team", right="Mar 2014 – Apr 2016") }}
 
 - Authored threat models and conducted reviews for authn/authz services.
 - Built security regression test frameworks using TAEF.
 - Managed external pen test reviews and designed baseline scanning agents for Azure environments.
 
-### **SDET** — *Azure Active Directory Team*  
-**Oct 2010 – Mar 2014**
+### Software Development Engineer in Test — Microsoft
+{{ left_right_align(left="Azure Active Directory Team", right="Oct 2010 – Mar 2014") }}
 
 - Tested authentication protocols (OAuth, SAML, WS-*, OpenID) across platforms like Office 365.
 - Developed tooling to speed ad-hoc testing of OAuth flows and migrate tenants across schema changes.
 - Built "checkout" service for test infra provisioning, improving reliability across the team.
 
-### **SDET** — *Forefront Protection Manager Team*  
-**Oct 2009 – Apr 2010**
+### Software Development Engineer in Test — Microsoft
+{{ left_right_align(left="Forefront Protection Manager Team", right="Oct 2009 – Apr 2010") }}
 
 - Tested client software and localization scenarios across environments.
 
 ---
 
-## 🧠 Blockchain & Crypto Experience
+## Education
 
-- Hands-on with **Ethereum staking**, running a fault-tolerant Proxmox cluster for distributed nodes (>99.9% uptime).
-- Designed an **AWS spot instance mining fleet** in 2018 to arbitrage GPU costs.
-- Early investor/enthusiast with self-custody practices (Shamir secret sharing, secret wallets, etc.).
-- Comfortable with EVM, Solidity, smart contract verification, zk-SNARKs/STARKs, and L2s (Polygon, Arbitrum, Optimism).
-
----
-
-## 🎓 Education
-
-**B.S. in Computer Science & Engineering** — *University of California, Los Angeles*  
-Graduated *Magna Cum Laude* — 3.85 GPA
+### B.S. in Computer Science & Engineering ###
+{{ left_right_align(left="University of California, Los Angeles", right="Sept 2005 – Apr 2009") }}
+- Graduated *Magna Cum Laude* with 3.85 GPA
+- Member of TBP and UPE honor societies
 
 ---
 
-## 🧩 Interests
+## Interests
 
-I love working close to the metal — from blinking LEDs to writing bare-metal Rust. I’ve built games like **Light Rail**, reanimated Nixie tubes with modern control, and designed interactive home automation gadgets. I'm fluent with circuit design, embedded dev, and building useful, weird stuff.
+Take a look at my [projects](/nick_brown_resume.docx).
 
 ---
 
-## 📄 Resume
+## Resume
 
 - [Resume (Word)](/nick_brown_resume.docx)
