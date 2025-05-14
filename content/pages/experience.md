@@ -9,16 +9,45 @@ page_info = []
 
 ## Skills
 
-- **Programming/Scripting Languages**: Rust, C/C++, .NET/C#, Python, PowerShell, JavaScript/TypeScript, Go, Lisp, Bash
-- **Virtualization**: Docker, Proxmox, LXC/LXD, Hyper-V, Kubernetes
-- **Cloud Infrastructure and DevOps**: Azure VMs, Azure Functions/Azure Durable Functions, Amazon Spot Instances, S3
-- **Data Science/Pipeline**: Cosmos DB, Databricks, Spark
-- **Identity and Security**: identity management (Azure AD), role/permissions/privilege analysis, static analysis tooling, penetration testing
-- **Blockchain/Crypto**: blockchain fundamentals: commitment schemes like KZG, proofs like zk-SNARKS, zk-STARKS, BFT/consensus algorithms, Ethereum fundamentals: EVM, Solidity, high uptime consensus and execution layer node cluster management
-- **CAD Design**: PCB design (KiCad), 3D modeling (Fusion 360)
-- **Microcontrollers**: Microchip ATtiny/ATMega, Espressif ESP8266/ESP32, STM32, Nordic nRF, Raspberry Pi RP2040/RP2350, RISC-V
-- **Human Languages**: English, Japanese (limited proficiency in reading and speaking), German
+<!-- - **Programming & Scripting**: .NET/C#, C/C++, Rust, Python, PowerShell, JavaScript/TypeScript, Go, Lisp, Bash
+- **Security & DevOps**: Identity management, role/permissions analysis, static analysis tooling, penetration testing, GitHub Actions, Azure DevOps, Azure Monitoring & App Insights, Service Bus, Key Vault
+- **Cloud & Infrastructure**: 
+  - **Azure**: App Services, Functions/Durable Functions, Virtual Machines, Websites, Blob Storage, Cosmos DB, Tables, SQL Database, Databricks, Service Bus, AKS, Application Gateway, Logic Apps, API Management, Resource Manager (ARM), Key Vault
+  - **AWS**: EC2 Spot Instances, S3
+- **Virtualization & Containers**: Docker, Proxmox, LXC/LXD, Hyper-V, Kubernetes
+- **Blockchain & Cryptography**: zk-SNARKs, zk-STARKs, KZG commitments, BFT consensus algorithms, EVM/Solidity, Ethereum node orchestration with consensus/execution layer separation
+- **Data & Analytics**: Apache Spark, Azure Databricks, Data Factory
+- **Hardware & Embedded**: Microchip ATtiny/ATMega, Espressif ESP8266/ESP32, STM32, Nordic nRF, Raspberry Pi RP2040/RP2040, RISC-V
+- **CAD & Design**: PCB design (KiCad), 3D modeling (Fusion 360)
+- **Languages**: English (fluent), Japanese (intermediate spoken & reading), German (basic) -->
 
+#### Engineering & Development ####
+
+- **Languages & Tooling**: .NET/C#, C/C++, Rust, Python, PowerShell, JavaScript/TypeScript, Go, Lisp, Bash
+- **Embedded & Hardware**: Microchip ATtiny/ATMega, Espressif ESP8266/ESP32, STM32, Nordic nRF, Raspberry Pi RP2040/RP2040, RISC-V
+- **Virtualization & Containers**: Docker, Proxmox, LXC/LXD, Hyper-V, Kubernetes
+- **CAD & Prototyping**: PCB layout/design (KiCad), 3D modeling (Fusion 360)
+
+#### ??? ####
+
+- **Security & DevOps**: Identity lifecycle management, permissions & privilege audits, static analysis tooling, fuzzing/penetration testing, CI/CD design and maintenance
+- **Cloud & Infrastructure**: 
+- **Blockchain & Cryptography**: zk-SNARKs, zk-STARKs, vector commitment schemes, BFT consensus algorithms, EVM/Solidity, Ethereum node orchestration with high-uptime consensus and execution layers
+
+#### Cloud & Infrastructure ####
+
+- **Azure**:
+  - **Security & Identity**: Azure Active Directory (AAD), Managed Identities, Azure Key Vault, Role-Based Access Control (RBAC), Conditional Access Policies, Defender for Cloud  
+  - **Compute & Services**: App Services, Functions/Durable Functions, Virtual Machines, Kubernetes Service (AKS), Websites  
+  - **Data Storage**: Blob Storage, Cosmos DB, SQL Database, REdis, Service Bus, Tables
+  - **Data Analytics**: Apache Spark, Azure Databricks, Azure Data Factory  
+  - **Networking & Integration**: Application Gateway, Logic Apps, API Management  
+  - **DevOps & Monitoring**: Azure DevOps (Pipelines, Boards, Repos, Artifacts), Azure Monitor, Application Insights, Log Analytics (KQL), Resource Manager (ARM), Azure Automation  
+- **AWS**: EC2 Spot Instances, S3  
+
+#### Languages ####
+
+- English (fluent), Japanese (intermediate spoken & reading), German (conversational)
 
 ---
 
