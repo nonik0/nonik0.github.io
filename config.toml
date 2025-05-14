@@ -89,9 +89,9 @@ avatar_invert = true
 name = "Nick Brown"
 bio = """I'm Nick, and I like to build things—from low-level hardware and firmware to high-level backend services and cloud infrastructure. I enjoy understanding how systems work end to end and putting care into the details at every layer, especially around security and reliability.
 
-I'm especially drawn to technologies that open up new ways of thinking and building — like decentralization, zero-knowledge proofs, and emerging AI tools. They bring both technical and human challenges that are exciting and meaningful to solve.
+I'm especially drawn to technologies that open up new ways of thinking and building — like decentralization and blockchains, zero-knowledge proofs, and emerging AI tools. They bring both new technical and human challenges that are exciting and meaningful to solve.
 
-After 15 years at Microsoft, I'm diving into technologies that feel fresh and full of potential. I'm particularly interested in Rust, blockchain, and other spaces where the tools are still evolving, the problems are still being explored, and new ways of building products that bring meaningful value to people are being discovered."""
+After 15 years at Microsoft, I've been diving into technologies that feel fresh and full of potential. I'm particularly interested in Rust, the Ethereum ecosystem, emerging ZK tech stacks and tooling, and other new spaces where the tools are still evolving, the problems are still being explored, and new ways of building products that bring meaningful value to people are being discovered."""
 email = "nick@altonimb.us"
 url = "https://altonimb.us"
 social = [
