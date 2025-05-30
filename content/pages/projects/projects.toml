@@ -1,4 +1,14 @@
 [[project]]
+name = "Block Clock"
+desc = "A clock that's a block. Although, it's not a clock. At least yet. But it's definitely a block."
+tags = ["hardware", "kicad", "C++"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/block-clock" },
+]
+image = "projects/images/nonik0.jpg"
+last_updated = "2025/05/30"
+
+[[project]]
 name = "Light Rail"
 desc = "A minimalist, interactive PCB game inspired by maker/hardware badge culture. With trains."
 tags = ["hardware", "kicad", "rust"]

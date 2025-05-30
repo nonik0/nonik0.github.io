@@ -9,84 +9,70 @@ page_info = []
 
 ## Skills
 
-<!-- - **Programming & Scripting**: .NET/C#, C/C++, Rust, Python, PowerShell, JavaScript/TypeScript, Go, Lisp, Bash
-- **Security & DevOps**: Identity management, role/permissions analysis, static analysis tooling, penetration testing, GitHub Actions, Azure DevOps, Azure Monitoring & App Insights, Service Bus, Key Vault
-- **Cloud & Infrastructure**: 
-  - **Azure**: App Services, Functions/Durable Functions, Virtual Machines, Websites, Blob Storage, Cosmos DB, Tables, SQL Database, Databricks, Service Bus, AKS, Application Gateway, Logic Apps, API Management, Resource Manager (ARM), Key Vault
-  - **AWS**: EC2 Spot Instances, S3
-- **Virtualization & Containers**: Docker, Proxmox, LXC/LXD, Hyper-V, Kubernetes
-- **Blockchain & Cryptography**: zk-SNARKs, zk-STARKs, KZG commitments, BFT consensus algorithms, EVM/Solidity, Ethereum node orchestration with consensus/execution layer separation
-- **Data & Analytics**: Apache Spark, Azure Databricks, Data Factory
-- **Hardware & Embedded**: Microchip ATtiny/ATMega, Espressif ESP8266/ESP32, STM32, Nordic nRF, Raspberry Pi RP2040/RP2040, RISC-V
-- **CAD & Design**: PCB design (KiCad), 3D modeling (Fusion 360)
-- **Languages**: English (fluent), Japanese (intermediate spoken & reading), German (basic) -->
+### Engineering & Development
+- **Programming and Scripting Languages:** .NET/C#, C/C++, Rust, Python, PowerShell, JavaScript/TypeScript, Go, Lisp, Bash  
+- **Security:** Identity lifecycle management, permissions & privilege audits, static analysis tooling, fuzzing/penetration testing  
+- **DevOps:** Git, CI/CD pipeline design and maintenance (Azure DevOps, GitHub Actions), automation, monitoring  
+- **Testing & QA:** unit/integration/E2E testing, test automation, code coverage analysis, tooling, and frameworks
+- **Cloud & Infrastructure:** Serverless, IaC, Monitoring & Logging, Networking/Gateways  
+- **Virtualization & Containers:** Docker, Proxmox, LXC/LXD, Hyper-V, Kubernetes  
+- **Blockchain & Cryptography:** zk-SNARKs, zk-STARKs, vector commitment schemes (KZG, etc.), BFT consensus algorithms, EVM/Solidity, Ethereum node orchestration with high-uptime consensus and execution layers  
+- **Embedded & Hardware:** Microchip ATtiny/ATMega, Espressif ESP8266/ESP32, STM32, Nordic nRF, Raspberry Pi RP2XXX, RISC-V  
+- **CAD & Prototyping:** PCB layout/design (KiCad), 3D modeling (Fusion 360)
 
-#### Engineering & Development ####
+### Cloud Technologies Used
 
-- **Languages & Tooling**: .NET/C#, C/C++, Rust, Python, PowerShell, JavaScript/TypeScript, Go, Lisp, Bash
-- **Embedded & Hardware**: Microchip ATtiny/ATMega, Espressif ESP8266/ESP32, STM32, Nordic nRF, Raspberry Pi RP2040/RP2040, RISC-V
-- **Virtualization & Containers**: Docker, Proxmox, LXC/LXD, Hyper-V, Kubernetes
-- **CAD & Prototyping**: PCB layout/design (KiCad), 3D modeling (Fusion 360)
-
-#### ??? ####
-
-- **Security & DevOps**: Identity lifecycle management, permissions & privilege audits, static analysis tooling, fuzzing/penetration testing, CI/CD design and maintenance
-- **Cloud & Infrastructure**: 
-- **Blockchain & Cryptography**: zk-SNARKs, zk-STARKs, vector commitment schemes, BFT consensus algorithms, EVM/Solidity, Ethereum node orchestration with high-uptime consensus and execution layers
-
-#### Cloud & Infrastructure ####
-
-- **Azure**:
-  - **Security & Identity**: Azure Active Directory (AAD), Managed Identities, Azure Key Vault, Role-Based Access Control (RBAC), Conditional Access Policies, Defender for Cloud  
-  - **Compute & Services**: App Services, Functions/Durable Functions, Virtual Machines, Kubernetes Service (AKS), Websites  
-  - **Data Storage**: Blob Storage, Cosmos DB, SQL Database, REdis, Service Bus, Tables
-  - **Data Analytics**: Apache Spark, Azure Databricks, Azure Data Factory  
-  - **Networking & Integration**: Application Gateway, Logic Apps, API Management  
-  - **DevOps & Monitoring**: Azure DevOps (Pipelines, Boards, Repos, Artifacts), Azure Monitor, Application Insights, Log Analytics (KQL), Resource Manager (ARM), Azure Automation  
-- **AWS**: EC2 Spot Instances, S3  
-
-#### Languages ####
-
-- English (fluent), Japanese (intermediate spoken & reading), German (conversational)
+**Azure**:
+- **Security & Identity:** Azure Active Directory (AAD), Managed Identities, Azure Key Vault, Role-Based Access Control (RBAC), Conditional Access Policies, Defender for Cloud  
+- **Compute & Services:**: App Services, Functions/Durable Functions, Virtual Machines, Kubernetes Service (AKS), Websites
+- **Data Storage:** Blob Storage, Cosmos DB, SQL Database, Redis, Service Bus, Tables
+- **Data Analytics:** Apache Spark, Azure Databricks, Azure Data Factory  
+- **Networking & Integration:** Application Gateway, Logic Apps, API Management  
+- **DevOps & Monitoring:** Azure DevOps (Pipelines, Boards, Repos, Artifacts), Azure Monitor, Application Insights, Log Analytics (KQL), Resource Manager (ARM), Azure Automation  
+**AWS**:
+- **Compute:** EC2 (including Spot Instances)
+- **Storage:** S3
 
 ---
 
 ## Work Experience
 
 ### **Software Development Engineer** — Microsoft  
-{{ left_right_align(left="Defender for Cloud DevOps Team", right="Sep 2023 – Apr 2024") }}
+{{ left_right_align(left="Defender for Cloud DevOps", right="Sep 2023 – Apr 2024") }}
 
-- Developed and maintained the Security DevOps CLI, integrating static analysis tools like Terrascan and Template Analyzer.
-- Owned the open-source **Template Analyzer**, added major support for Bicep with source code mapping.
-- Redesigned release pipelines and repackaged dependencies to remove SPOFs and improve reliability.
+-	Improved security evaluation pipelines for Azure and customers by developing and maintaining Security DevOps CLI tooling and workflows.
+- Owned and advanced the open-source Template Analyzer IaC static analysis tool, delivering major features like full Bicep support and source mapping integration.
+- Improved security reliability for Azure and customers by redesigning DevOps pipelines and dependency packaging to eliminate single points of failure in key downstream workflows.
 
 ### **Security Software Engineer** — Microsoft
 {{ left_right_align(left="C+AI Security Green Team", right="Apr 2016 – Sep 2023") }}
 
-- Maintained the **AppAuthentication** library (250M+ downloads); led transition to Azure.Identity.
-- Built a Durable Functions + Data Explorer workflow to enforce least privilege RBAC; awarded a patent.
-- Designed large-scale credential tracking in Cosmos DB using AAD trace data and external graph sources.
-- Led an org-wide initiative reducing credentials in source code from ~200k to <1k in under a year.
-- Contributed to Windows Forms “Subscription Cleanup Tool” for bulk Azure permission cleanup across clouds.
+-	Founding member of a new security team paradigm focused on addressing systemic security issues, leading to the development of innovative solutions to address systemic organizational risk.
+-	Took ownership of the widely adopted AppAuthentication library (250M+ downloads), added key features to simplify developer identity management, and led its successful transition to Azure.Identity.
+-	Mitigated systemic risk from overprivileged RBAC roles in Azure by proposing and leading a scalable solution—work led to major security improvements, a dedicated team, and a patented algorithm.
+-	Reduced risk from unused and compromised credentials by implementing a workflow to process all AAD sign-in telemetry and correlate it with sources like Red Team data.
+-	Reduced credential exposure in Azure source code by 99.5% in one year by spearheading a PoC to detect credentials and drive remediation through automated attribution, bug creation, and reporting.
+-	Drove adoption of a key Azure security hygiene tool in airgapped and nation-state clouds; contributed features to accelerate issue detection and remediation.
 
 ### **Security Engineer** — Microsoft  
-{{ left_right_align(left="C+AI Security Assurance Team", right="Mar 2014 – Apr 2016") }}
+{{ left_right_align(left="C+AI Security Assurance", right="Mar 2014 – Apr 2016") }}
 
 - Authored threat models and conducted reviews for authn/authz services.
 - Built security regression test frameworks using TAEF.
 - Managed external pen test reviews and designed baseline scanning agents for Azure environments.
 
 ### Software Development Engineer in Test — Microsoft
-{{ left_right_align(left="Azure Active Directory Team", right="Oct 2010 – Mar 2014") }}
+{{ left_right_align(left="Azure Active Directory", right="Oct 2010 – Mar 2014") }}
 
-- Tested authentication protocols (OAuth, SAML, WS-*, OpenID) across platforms like Office 365.
-- Developed tooling to speed ad-hoc testing of OAuth flows and migrate tenants across schema changes.
-- Built "checkout" service for test infra provisioning, improving reliability across the team.
+-	Ensured robust and secure authentication across systems, including Office 365, by testing developing identity protocols and standards (OAuth2, SAML, WS-*, etc.)
+-	Enabled seamless, issue-free live migrations of security token services for Azure customers with extensive testing.
+-	Accelerated and improved test automation reliability for stakeholders by leading development of a robust testing infrastructure that compartmentalized tenant provisioning and management complexity.
+- Developed several internal tools used by teams for ad-hoc testing and manipulating authentication protocol flows.
 
 ### Software Development Engineer in Test — Microsoft
-{{ left_right_align(left="Forefront Protection Manager Team", right="Oct 2009 – Apr 2010") }}
+{{ left_right_align(left="Forefront Protection Manager", right="Oct 2009 – Apr 2010") }}
 
-- Tested client software and localization scenarios across environments.
+- Conducted comprehensive testing of client agent and software across diverse environments, including localization and globalization scenarios.
 
 ---
 
@@ -100,6 +86,10 @@ page_info = []
 ---
 
 ## Interests
+
+#### Languages ####
+
+- English (fluent), Japanese (intermediate spoken & reading), German (conversational)
 
 Take a look at my [projects](/nick_brown_resume.docx).
 
