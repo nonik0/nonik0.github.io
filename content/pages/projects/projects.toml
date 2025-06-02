@@ -5,8 +5,8 @@ tags = ["hardware", "kicad", "C++"]
 links = [
     { name = "github", url = "https://github.com/nonik0/block-clock" },
 ]
-image = "projects/images/nonik0.jpg"
-last_updated = "2025/05/30"
+image = "projects/images/block_clock.jpg"
+last_updated = "2025/06/02"
 
 [[project]]
 name = "Light Rail"
