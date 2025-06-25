@@ -53,7 +53,7 @@
     <img
       class="h-auto w-full rounded-lg"
       {# hacky hardcode for now #}
-      style="max-height: 200px; width:auto;"
+      style="max-height: 200px; max-width: 250px; width:auto;"
       src="{{ get_url(path=page.extra.cover.image) }}"
       {% if page.extra.cover.alt is defined %}alt="{{ page.extra.cover.alt | escape_xml | safe }}"{% endif %}
     />

@@ -27,7 +27,7 @@ tags = ["hardware", "kicad", "rust"]
 links = [
     { name = "github", url = "https://github.com/nonik0/NONIK0" },
 ]
-image = "projects/images/nonik0.jpg"
+image = "nonik0/nonik0.jpg"
 last_updated = "2025/03/27"
 
 [[project]]

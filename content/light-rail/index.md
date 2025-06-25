@@ -39,7 +39,7 @@ It was a unique mental experience I won't soon forget! It's quite hard to descri
 - [TIGER Electronics](https://en.wikipedia.org/wiki/Tiger_Electronics) handheld LCD games
 - Adafruit LED backpacks, especially [this one](https://www.adafruit.com/product/2946)
 
-{{ resize_image_custom(path="sketch.jpg", height=400, float="right" alt="My first (and only) concept sketch") }}
+{{ resize_image_custom(path="sketch.jpg", height=400, float="right", alt="My first (and only) concept sketch") }}
 
 OK, so what was the actual idea? It was a train game. The tracks would be represented as lines of LEDs, with silkscreen graphics, and the trains themselves would be contiguous sequences of lit LEDs moving along those tracks—each LED representing a single car in the train. Arranged alongside the tracks would be other LEDs that would represent the platforms. When lit, a platform would indicate cargo ready for pickup, which a passing train could collect from an adjacent track and deliver to another platform elsewhere. The train's cargo could be visualized using bright LEDs for full cars and dim ones for empty cars. The track layout would include forks and crossings, each with a nearby push button to toggle or switch their state.
 
