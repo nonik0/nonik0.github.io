@@ -1,0 +1,178 @@
+[[project]]
+name = "Block Clock"
+desc = "A clock that's a block. Although, it's not a clock. At least yet. But it's definitely a block."
+tags = ["hardware", "kicad", "C++"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/block-clock" },
+]
+image = "projects/images/block_clock.jpg"
+last_updated = "2025/06/02"
+
+[[project]]
+name = "Light Rail"
+desc = "A minimalist, interactive PCB game inspired by maker/hardware badge culture. With trains."
+tags = ["hardware", "kicad", "rust"]
+links = [
+    { name = "hackaday", url = "https://hackaday.io/project/202885-light-rail" },
+    { name = "github", url = "https://github.com/nonik0/Light-Rail" },
+    { name = "writeup", url = "/light-rail", no_popup = true },
+]
+image = "light-rail/board_front_on_crop.jpg"
+last_updated = "2025/04/30"
+
+[[project]]
+name = "NONIK0"
+desc = "A project that puts the beautiful, retro HCMS-29xx dot matrix character display front and center. As a nametag."
+tags = ["hardware", "kicad", "rust"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/NONIK0" },
+]
+image = "nonik0/nonik0.jpg"
+last_updated = "2025/03/27"
+
+[[project]]
+name = "IN-13 Nixie Device"
+desc = "I like metal. I found a nice metal case and designed a custom PCB for it to drive an IN-13 nixie bargraph display."
+tags = ["hardware", "kicad", "nixie", "C++"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/IN13-Nixie-Device" },
+]
+image = "projects/images/in13_nixie_device.png"
+last_updated = "2025/03/27"
+
+[[project]]
+name = "Stemmett Nixie Device"
+desc = "I invented a new use for the IN-7 family of symbolic Nixie tubes. Showing names of people I love!"
+tags = ["hardware", "kicad", "nixie"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/Stemmett-Nixie-Device" },
+]
+image = "projects/images/stemmett_nixie_device.png"
+last_updated = "2024/12/12"
+
+[[project]]
+name = "AS1115 Rust driver"
+desc = "A platform agnostic driver written in Rust for AS1115 LED driver IC. Unpublished, in development."
+tags = ["rust", "hardware"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/as1115" },
+]
+last_updated = "2025/02/25"
+
+[[project]]
+name = "HCMS-29xx Rust Driver"
+desc = "A platform agnostic driver written in Rust for HCMS-29xx and HCMS-39xx display ICs."
+tags = ["rust", "hardware"]
+links = [
+    { name = "crates.io", url = "https://crates.io/crates/hcms-29xx" },
+    { name = "github", url = "https://github.com/nonik0/hcms-29xx" },
+]
+last_updated = "2025/03/18"
+
+[[project]]
+name = "Rust Support for ATtiny 0-series"
+desc = "Added support for Microchip's ATtiny 0-series 14 pin microcontrollers."
+tags = ["rust", "hardware", "avr"]
+links = [
+    { name = "github PR", url = "https://github.com/Rahix/avr-device/pull/182" }
+]
+last_updated = "2025/03/14"
+
+[[project]]
+name = "Template Analyzer"
+desc = "Contributed major features such as bicep language support and source code mapping. Contributed as part of former role in Microsoft Azure Security org."
+tags = ["C#", "security", "static-analysis"]
+links = [
+    { name = "github PR", url = "https://github.com/Azure/template-analyzer" }
+]
+last_updated = "2024/04/20"
+
+[[project]]
+name = "Cardputer LoRaChat"
+desc = "I was miffed that the Cardputer has LoRa modules but no support for Meshtastic, so this was something I did to have fun with some LoRa communication."
+tags = ["C++", "ESP32", "firmware"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/CardputerLoRaChat" }
+]
+image = "projects/images/lorachat.png"
+last_updated = "2024/12/03"
+
+[[project]]
+name = "Cardputer Lego Train Control"
+desc = "This is a simple program for the M5Stack Cardputer to control several LEGO trains or accessories with one device. Was able to learn BLE protocol and implement a few new BLE drivers."
+tags = ["C++", "ESP32", "BLE", "firmware"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/CardputerLegoTrainControl" }
+]
+image = "projects/images/lego_train_control.png"
+last_updated = "2024/12/04"
+
+[[project]]
+name = "Cardputer Remote"
+desc = "Simple remote app that supports Sony and LG TVs. The IR LED on Cardputer is not too strong so limited usefulness without modding."
+tags = ["C++", "ESP32", "firmware"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/CardputerRemote" }
+]
+last_updated = "2024/04/20"
+
+[[project]]
+name = "Adafruit Trellis support for ESPHome"
+desc = "I wrote an ESPHome component to monitor and control the Adafruit Trellis over I2C for better integration into Home Assistant."
+tags = ["C++", "homeassistant"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/esphome-adafruit-trellis" }
+]
+last_updated = "2024/05/23"
+
+[[project]]
+name = "M5Stack Unit 8Encoder support for ESPHome"
+desc = "I wrote an ESPHome component to monitor and control the M5Stack Unit 8Encoder over I2C for better integration into Home Assistant."
+tags = ["C++", "homeassistant"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/esphome-m5stack-unit8encoder" }
+]
+last_updated = "2025/04/30"
+
+[[project]]
+name = "Beau's Button Board"
+desc = "A simple Adafruit Neotrellis device with wifi and battery for my son. Crammed into a small package. Prototype was lost, will rebuild at some point."
+tags = ["hardware", "firmware", "ESP32"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/Beaus-Button-Board" }
+]
+image = "projects/images/beaus_button_board.png"
+last_updated = "2025/04/16"
+
+[[project]]
+name = "3D Printer Enclosure Controller"
+desc = "I built a custom 3D printer enclosure for my Prusa. Hacked together controller using M5 Dinmeter from the sample code to control printer and enclosure lighting."
+tags = ["firmware", "C++", "ESP32"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/3DPEnclosureController" }
+]
+image = "projects/images/3dp_enclosure_controller.jpg"
+last_updated = "2024/09/27"
+
+[[project]]
+name = "RZ568M Nixie Clock"
+desc = "A simple two digit Nixie clock using Dalibor Farny's RZ568M Nixie tubes. Used various components and put in a nice case."
+tags = ["hardware", "C++", "nixie"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/RZ568M-Nixie-Clock" }
+]
+image = "projects/images/rz568m_nixie_clock.jpg"
+last_updated = "2025/01/16"
+
+[[project]]
+name = "IN-17 Nixie Clock"
+desc = "Used existing kit for IN-17s with some quick modifications to control via ESPHome. Put into a nice case."
+tags = ["hardware", "ESP8266", "homeassistant"]
+links = [
+    { name = "github", url = "https://github.com/nonik0/IN17-Nixie-Clock" }
+]
+image = "projects/images/in17_nixie_clock.jpg"
+last_updated = "2024/05/19"
+
+#TODO: rpydash?
+#TODO: bicep?
